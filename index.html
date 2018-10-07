@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Game</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>Hangman Game</h1>
+            <p>Guess the Correct word and win a cookie</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Word To Guess:
+            </div>
+            <div class="card-body">
+                <h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                Wrong Guesses: <span id="wrongGuesses">0</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                Guesses Left: <span id="numGuesses">9</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                Win Counter: <span id="winCounter">0</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                Loss Counter: <span id="lossCounter">0</span>
+            </div>
+        </div>
+    </div>
+         <!--linking to javascript file-->
+         <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
